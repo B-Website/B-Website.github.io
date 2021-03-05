@@ -1,0 +1,157 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+
+ /* Style */
+
+body{
+background-color:#e2e2e5 ;
+font:16px/28px arial;
+/* background-image: url(img/background.jpg);} */
+}
+.container{
+    background-color:white;
+    margin: auto ;
+	width: 960px;
+	
+}
+
+.header{
+    padding:20px;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li  {
+	font:14px/16px sans-serif ;
+	display:inline-block;
+	margin:8px
+}
+.header a{
+	text-decoration:none;
+	color: salmon;
+	padding: 5px;
+}
+
+
+.hero{
+	height: 300px;
+	background-image: url(img/img.jpg);
+	background-size: cover;
+	background-position: 0 -150px;
+	border-top:5px solid skyblue;
+	border-bottom:5px solid salmon;
+
+}
+
+.main{
+	width: 600px;
+	padding:15px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+.main .penulis{
+	margin-top: -7px;
+	font-size: 11px;
+
+}
+
+.main p{
+	margin-bottom: 15px;
+	text-align: justify;
+}
+.main a {
+	text-decoration:none;
+	color: salmon;
+	padding: 5px;
+
+}
+/*slidebar*/
+.slidebar{
+	width: 300px;
+	padding: 5px;
+	box-sizing: border-box;
+	float: right;
+}
+.slidebar h3{
+	font-weight: bold;
+	color: #666;
+}
+
+.slidebar img{
+	width: 90px;
+	height: 90px;
+
+}
+.slidebar p{
+	text-align: justify;
+	font: 14px/16px arial;
+	padding: 10px;
+}
+
+.footer{
+	background-color: #333;
+	padding: 20px;
+}
+.footer .copy{
+color:#eaeaea;
+text-align: center;
+}
+/* Clear Flot */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+/* Selesai CSS!!! */
